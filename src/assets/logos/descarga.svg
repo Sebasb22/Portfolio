@@ -1,0 +1,9 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 16V48H33C39 48 43 44 43 39C43 35 40 32 36 32H33M33 32C39 32 43 28 43 23C43 18 39 16 33 16H22Z" stroke="url(#neonGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <defs>
+    <linearGradient id="neonGradient" x1="22" y1="16" x2="43" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39FF14"></stop>
+      <stop offset="1" stop-color="#8A2BE2"></stop>
+    </linearGradient>
+  </defs>
+</svg>
