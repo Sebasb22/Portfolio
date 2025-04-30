@@ -3,7 +3,7 @@ import Reactimage from "../assets/logos/React.svg";
 import HTMLogo from "../assets/logos/HTML.svg";
 import CSS from "../assets/logos/CSS.svg";
 import TailwindCSS from "../assets/logos/Tailwind.svg";
-import NodeJS from "../assets/logos/NodeJS.svg";
+import LogoNodeJS from "../assets/logos/NodeJs.svg";
 import MongoDBImage from "../assets/logos/Mongo.svg";
 import Git from "../assets/logos/Git.svg";
 import Figma from "../assets/logos/Figma.svg";
@@ -200,7 +200,7 @@ const Resume = () => {
             <span>Tailwind CSS</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={NodeJS} alt="Node.js" className="h-6 w-6" />
+            <img src={LogoNodeJS} alt="Node.js" className="h-6 w-6" />
             <span>Node.js</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
