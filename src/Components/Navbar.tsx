@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { motion } from "framer-motion";
 import logo from "../assets/logos/descarga.svg";
 
 const Navbar = () => {
@@ -25,29 +25,43 @@ const Navbar = () => {
   return (
     <>
       {/* Espaciador para evitar que el Navbar tape el contenido */}
-      <div className="h-20 md:h-16"></div>
+      <div className="h-16"></div>
 
-      <div className="flex justify-between items-center px-5 md:px-10 py-5 bg-purple-800 bg-opacity-50 text-white fixed top-0 left-0 w-full z-50 shadow-md">
+      <div className="flex justify-between items-center px-5 md:px-10 py-4 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white fixed top-0 left-0 w-full z-50 shadow-lg">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img className="h-8 w-auto" src={logo} alt="Logo" />
-          <span className="text-lg font-semibold">Portfolio</span>
+          <img
+            className="h-10 w-auto rounded-full shadow-md"
+            src={logo}
+            alt="Logo"
+          />
+          <span className="text-xl font-bold tracking-wide">Portfolio</span>
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-6 text-sm font-light">
-          <li className="cursor-pointer hover:text-purple-300 transition-colors">
+        <ul className="hidden md:flex gap-8 text-sm font-medium">
+          <motion.li
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            className="cursor-pointer hover:text-gray-200 transition-colors"
+          >
             <a href="/">Home</a>
-          </li>
-          <li
-            className="cursor-pointer hover:text-purple-300 transition-colors"
+          </motion.li>
+          <motion.li
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            className="cursor-pointer hover:text-gray-200 transition-colors"
             onClick={() => handleScroll("projects-section")}
           >
             Projects
-          </li>
-          <li className="cursor-pointer hover:text-purple-300 transition-colors">
+          </motion.li>
+          <motion.li
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            className="cursor-pointer hover:text-gray-200 transition-colors"
+          >
             <a href="/Resume">Resume</a>
-          </li>
+          </motion.li>
         </ul>
 
         {/* Mobile Menu Button */}
@@ -55,7 +69,7 @@ const Navbar = () => {
           className="md:hidden text-white"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
 
         {/* Mobile Menu */}
@@ -64,26 +78,30 @@ const Navbar = () => {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="absolute top-16 left-0 w-full bg-purple-700 text-white flex flex-col items-center gap-5 py-5 shadow-lg md:hidden"
+            className="absolute top-16 left-0 w-full bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white flex flex-col items-center gap-5 py-5 shadow-lg md:hidden"
           >
-            <li
-              className="cursor-pointer hover:text-purple-300 transition-colors"
-              onClick={() => handleScroll("home-section")}
+            <motion.li
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              className="cursor-pointer hover:text-gray-200 transition-colors"
             >
-              Home
-            </li>
-            <li
-              className="cursor-pointer hover:text-purple-300 transition-colors"
+              <a href="/">Home</a>
+            </motion.li>
+            <motion.li
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              className="cursor-pointer hover:text-gray-200 transition-colors"
               onClick={() => handleScroll("projects-section")}
             >
               Projects
-            </li>
-            <li
-              className="cursor-pointer hover:text-purple-300 transition-colors"
-              onClick={() => handleScroll("resume-section")}
+            </motion.li>
+            <motion.li
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              className="cursor-pointer hover:text-gray-200 transition-colors"
             >
-              Resume
-            </li>
+              <a href="/Resume">Resume</a>
+            </motion.li>
           </motion.div>
         )}
       </div>

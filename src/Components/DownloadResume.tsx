@@ -22,7 +22,7 @@ const DownloadResume = () => {
   return (
     <div className="flex justify-end items-center">
       <a
-        href="public/Resume SebastianB 2025.docx.pdf"
+        href="/Resume-SebastianB.docx.pdf" // Ruta relativa al archivo en la carpeta public
         download
         className="text-gray-500 hover:text-gray-700 text-sm flex items-center group"
         onClick={handleClick}

@@ -1,66 +1,32 @@
 const Footer = () => {
   return (
-    <div className="bg-purple-800 text-green-400 p-6 text-center">
-      <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text">
-        SAY HELLO!
-      </h2>
-      <div className="mb-4">
-        <p>
-          Email:{" "}
-          <a href="mailto:tuemail@example.com" className="text-blue-600">
-            tuemail@example.com
-          </a>
-        </p>
-        <p>
-          LinkedIn:{" "}
-          <a
-            href="https://linkedin.com/in/tuperfil"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600"
-          >
-            linkedin.com/in/tuperfil
-          </a>
-        </p>
-        <p>
-          WhatsApp:{" "}
-          <a
-            href="https://wa.me/1234567890"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600"
-          >
-            +123 456 7890
-          </a>
-        </p>
+    <footer className="bg-gray-900 text-gray-400 p-6 text-center">
+      <p className="text-sm">© 2025 Sebastian Bolaños. All rights reserved.</p>
+      <div className="mt-4 space-x-4">
+        <a
+          href="mailto:sbc-2002@hotmail.com"
+          className="hover:text-white transition-colors duration-300"
+        >
+          Email
+        </a>
+        <a
+          href="www.linkedin.com/in/sbolanosc22"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-white transition-colors duration-300"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://wa.me/3105932091"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-white transition-colors duration-300"
+        >
+          WhatsApp
+        </a>
       </div>
-      <ul className="flex justify-center space-x-6">
-        <li>
-          <a
-            href="#home"
-            className="hover:text-blue-500 transition-colors duration-300"
-          >
-            Home
-          </a>
-        </li>
-        <li>
-          <a
-            href="#projects"
-            className="hover:text-blue-500 transition-colors duration-300"
-          >
-            Projects
-          </a>
-        </li>
-        <li>
-          <a
-            href="#resume"
-            className="hover:text-blue-500 transition-colors duration-300"
-          >
-            Resume
-          </a>
-        </li>
-      </ul>
-    </div>
+    </footer>
   );
 };
 
