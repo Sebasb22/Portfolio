@@ -10,7 +10,7 @@ import Figma from "../assets/logos/Figma.svg";
 import Jira from "../assets/logos/Jira.svg";
 import MySQL from "../assets/logos/MySQL.svg";
 import Postman from "../assets/logos/Postman.svg";
-import Scrum from "../assets/logos/Scrum.svg";
+import dockerimage from "../assets/logos/Docker.svg";
 import Bash from "../assets/logos/Bash.svg";
 import Python from "../assets/logos/Python.svg";
 import Selenium from "../assets/logos/Selenium.svg";
@@ -19,45 +19,45 @@ const Resume = () => {
   return (
     <div className="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-lg">
       <div className="mb-8">
-        <h1 className="text-3xl font-extrabold text-gray-800 mb-2">
+        <h1 className="text-3xl font-normal text-gray-800 mb-2">
           Sebastian Bolaños Cordoba
         </h1>
-        <h2 className="text-xl font-semibold text-gray-600">
+        <h2 className="text-xl font-light text-grey-800 mb-4">
           Full Stack Developer
         </h2>
-        <p className="text-gray-700 mt-4">
+        <p className="text-gray-700 font-thin mt-4">
           Engineer valued for driving high-performance accessible web
           experiences. I design quality, user-friendly and scalable products
           regardless of stack.
         </p>
       </div>
       <div className="mb-8">
-        <h3 className="text-xl font-bold text-gray-800 border-b pb-2 mb-4">
+        <h3 className="text-xl font-light text-gray-800 border-b pb-2 mb-4">
           Information
         </h3>
-        <p className="text-gray-700">
-          <span className="font-semibold">Address:</span> Km3 Via Chipaya, Verde
+        <p className="text-gray-700 font-thin">
+          <span className="font-thin">Address:</span> Km3 Via Chipaya, Verde
           Horizonte, Casa 64-1B, Jamundi Colombia
         </p>
-        <p className="text-gray-700">
-          <span className="font-semibold">Email:</span>{" "}
+        <p className="text-gray-700 font-thin">
+          <span className="font-thin">Email:</span>{" "}
           <a href="mailto:sbc-2002@hotmail.com" className="">
             sbc-2002@hotmail.com
           </a>
         </p>
-        <p className="text-gray-700">
-          <span className="font-semibold">Phone:</span> +57 (310) 593-2091
+        <p className="text-gray-700 font-thin">
+          <span className="font-thin">Phone:</span> +57 (310) 593-2091
         </p>
-        <p className="text-gray-700">
-          <span className="font-semibold">Level:</span> Mid – Level
+        <p className="text-gray-700 font-thin">
+          <span className="font-thin">Level:</span> Mid – Level
         </p>
       </div>
       <div>
-        <h3 className="text-xl font-bold text-gray-800 border-b pb-2 mb-4">
+        <h3 className="text-xl font-light text-gray-800 border-b pb-2 mb-4">
           Experience
         </h3>
         <div className="mb-6">
-          <p className="text-gray-800 font-semibold">
+          <p className="text-gray-800 font-thin">
             Counselor at{" "}
             <a
               href="https://www.linkedin.com/company/camp-wesley-woods/"
@@ -69,13 +69,13 @@ const Resume = () => {
             </a>{" "}
             (May 2023 to August 2023)
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-700 font-thin">
             Supervision, recreational activities, effective and efficient
             intercultural communication.
           </p>
         </div>
         <div className="mb-6">
-          <p className="text-gray-800 font-semibold">
+          <p className="text-gray-800 font-thin">
             Front end Developer and Software Engineer at{" "}
             <a
               href="https://www.linkedin.com/company/fundacion-rafael-sanado-por-dios/about/"
@@ -87,7 +87,7 @@ const Resume = () => {
             </a>{" "}
             (August 2023 to December 2023)
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-700 font-thin">
             Add interactive functionalities, Create and maintain the user
             interface, ensure that the interface is accessible and user
             friendly, collaborate with back-end developers, Define the System
@@ -95,7 +95,7 @@ const Resume = () => {
           </p>
         </div>
         <div className="mb-6">
-          <p className="text-gray-800 font-semibold">
+          <p className="text-gray-800 font-thin">
             IT Specialist at{" "}
             <a
               href="https://www.linkedin.com/company/sig-systems-inc/"
@@ -107,13 +107,13 @@ const Resume = () => {
             </a>{" "}
             (March 2024 to October 2024)
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-700 font-thin">
             Physical and network support of the operation, physical maintenance,
             Software, network and closed-circuit television audits.
           </p>
         </div>
         <div>
-          <p className="text-gray-800 font-semibold">
+          <p className="text-gray-800 font-thin">
             Service Desk Analyst at{" "}
             <a
               href="https://www.linkedin.com/company/tabi-connect/posts/?feedView=all"
@@ -125,7 +125,7 @@ const Resume = () => {
             </a>{" "}
             (October 2024 to present)
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-700 font-thin">
             Experience in supervising and optimizing the performance of robotic
             process automation (RPA) systems, ensuring operational efficiency
             and quick problem resolution.
@@ -133,15 +133,15 @@ const Resume = () => {
         </div>
       </div>
       <div>
-        <h3 className="text-xl font-bold text-gray-800 border-b pb-2 mb-4 mt-8">
+        <h3 className="text-xl font-light text-gray-800 border-b pb-2 mb-4 mt-8">
           Education
         </h3>
         <div>
           <div className="mb-6">
-            <p className="text-gray-800 font-semibold">
+            <p className="text-gray-800 font-thin">
               High School Diploma Colegio de la Universidad Libre (2018)
             </p>
-            <p className="text-gray-700">
+            <p className="text-gray-700 font-thin">
               Graduated with honors, focusing on foundational programming and IT
               skills. Participated in extracurricular activities such as coding
               clubs and technology fairs.
@@ -149,7 +149,7 @@ const Resume = () => {
           </div>
 
           <div className="mb-6">
-            <p className="text-gray-800 font-semibold">
+            <p className="text-gray-800 font-thin">
               Bachelor’s Degree in Software Engineering{" "}
               <a
                 href="https://www.uao.edu.co/"
@@ -161,7 +161,7 @@ const Resume = () => {
               </a>{" "}
               (2024)
             </p>
-            <p className="text-gray-700">
+            <p className="text-gray-700 font-thin">
               Specialized in full-stack development, software architecture, and
               cybersecurity. Developed multiple academic projects, including a
               scalable e-commerce platform and a secure API for financial
@@ -172,10 +172,10 @@ const Resume = () => {
         </div>
       </div>
       <div>
-        <h3 className="text-xl font-bold text-gray-800 border-b pb-2 mb-4">
+        <h3 className="text-xl font-light text-gray-800 border-b pb-2 mb-4">
           Skills
         </h3>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-gray-700">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-gray-700 font-thin">
           <div className="flex items-center space-x-2 select-none">
             <img src={Javascript} alt="JavaScript" className="h-6 w-6" />
             <span>JavaScript</span>
@@ -224,7 +224,6 @@ const Resume = () => {
             <img src={Postman} alt="Postman" className="h-6 w-6" />
             <span>Postman</span>
           </div>
-
           <div className="flex items-center space-x-2 select-none">
             <img src={Bash} alt="Bash Shell" className="h-6 w-6" />
             <span>Bash Shell</span>
@@ -237,12 +236,14 @@ const Resume = () => {
             <img src={Selenium} alt="Selenium" className="h-6 w-6" />
             <span>Selenium</span>
           </div>
+          <div className="flex items-center space-x-2 select-none">
+            <img src={dockerimage} alt="Selenium" className="h-6 w-6" />
+            <span>Docker</span>
+          </div>
         </div>
         <div className="mt-8">
-          <h4 className="text-lg font-semibold text-gray-800 mb-4">
-            Soft Skills
-          </h4>
-          <div className="grid grid-cols-2 gap-4 text-gray-700">
+          <h4 className="text-lg font-light text-gray-800 mb-4">Soft Skills</h4>
+          <div className="grid grid-cols-2 gap-4 text-gray-700 font-thin">
             <div>
               <li>Critical Thinking</li>
             </div>
@@ -269,7 +270,7 @@ const Resume = () => {
             </div>
           </div>
         </div>
-        <p className="text-gray-700 mt-10 mb-10 text-justify">
+        <p className="text-gray-700 font-thin mt-10 mb-10 text-justify">
           I am a passionate and dedicated software engineer with a strong
           foundation in web development. I have experience in building
           responsive and user-friendly web applications using modern
@@ -280,167 +281,42 @@ const Resume = () => {
         </p>
       </div>
       <div className="mb-8">
-        <h3 className="text-xl font-bold text-gray-800 border-b pb-2 mb-4">
+        <h3 className="text-xl font-light text-gray-800 border-b pb-2 mb-4">
           Languages
         </h3>
-        <ul className="text-gray-700 space-y-2">
+        <ul className="text-gray-700 font-thin space-y-2">
           <li>
-            <span className="font-semibold">Spanish:</span> Native
+            <span className="font-thin">Spanish:</span> Native
           </li>
           <li>
-            <span className="font-semibold">English:</span> C1
+            <span className="font-thin">English:</span> C1
           </li>
         </ul>
       </div>
       <div className="mb-8">
-        <h3 className="text-xl font-bold text-gray-800 border-b pb-2 mb-4">
+        <h3 className="text-xl font-light text-gray-800 border-b pb-2 mb-4">
           Courses
         </h3>
-        <ul className="text-gray-700 space-y-2">
+        <ul className="text-gray-700 font-thin space-y-2 list-disc list-inside">
+          <li>Curso de Docker: Fundamentos</li>
+          <li>Curso Definitivo de HTML y CSS</li>
+          <li>Curso de Frontend Developer</li>
+          <li>Curso de Fundamentos de Diseño de Interfaces UX/UI</li>
+          <li>Curso de Fundamentos de JavaScript</li>
+          <li>Curso de GitHub Actions</li>
+          <li>Curso de Herramientas de AI para Developers</li>
+          <li>Curso de Introducción a la Terminal y Línea de Comandos</li>
+          <li>Curso de Introducción a React Native</li>
           <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/8781-docker-fundamentos/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso de Docker: Fundamentos
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
+            Curso de NPM: Gestión de Paquetes y Dependencias en JavaScript
           </li>
-          <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/2008-html-css/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso Definitivo de HTML y CSS
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
-          </li>
-          <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/2467-frontend-developer/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso de Frontend Developer
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
-          </li>
-          <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/5184-basico-ui/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso de Fundamentos de Diseño de Interfaces UX/UI
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
-          </li>
-          <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/10266-javascript/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso de Fundamentos de JavaScript
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
-          </li>
-          <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/7992-github-actions/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso de GitHub Actions
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
-          </li>
-          <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/10959-herramientas-ai-developers/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso de Herramientas de AI para Developers
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
-          </li>
-          <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/2292-terminal/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso de Introducción a la Terminal y Línea de Comandos
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
-          </li>
-          <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/2556-react-native/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso de Introducción a React Native
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
-          </li>
-          <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/3578-npm/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso de NPM: Gestión de Paquetes y Dependencias en JavaScript
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
-          </li>
-          <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/7395-react/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso de React.js
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
-          </li>
-          <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/2030-mobile-first/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso de Responsive Design: Maquetación Mobile First
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
-          </li>
-          <li>
-            <a
-              href="https://platzi.com/p/bolacrack22/curso/1557-git-github/diploma/detalle/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-gray-700"
-            >
-              Curso Profesional de Git y GitHub
-            </a>
-            <p className="text-gray-500 text-sm font-thin">Platzi</p>
-          </li>
+          <li>Curso de React.js</li>
+          <li>Curso de Responsive Design: Maquetación Mobile First</li>
+          <li>Curso Profesional de Git y GitHub</li>
         </ul>
+        <p className="text-gray-500 font-thin text-sm mt-4">
+          All courses completed on Platzi.
+        </p>
       </div>
     </div>
   );

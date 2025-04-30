@@ -1,0 +1,16 @@
+.scroll-reveal {
+  margin: 100px auto; /* Aumenta el espacio superior e inferior */
+  max-width: 900px; /* Ancho moderado para un diseño profesional */
+  text-align: left; /* Alineación natural del texto */
+  line-height: 1.8; /* Mejora la legibilidad */
+}
+
+.scroll-reveal-text {
+  font-size: clamp(1.4rem, 3vw, 2.5rem); /* Tamaño ajustado para minimalismo */
+  line-height: 1.9; /* Espaciado adecuado entre líneas */
+  font-weight: 500; /* Peso moderado para un diseño limpio */
+}
+
+.word {
+  display: inline-block;
+}

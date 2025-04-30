@@ -37,7 +37,7 @@ const Sendmeamessage = () => {
   };
 
   return (
-    <div className="bg-white px-5 py-16 max-w-4xl mx-auto   mt-20 mb-20">
+    <div className="bg-white px-5 py-16 max-w-4xl mx-auto   mt-80 mb-20">
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-[#091626]">
         Send me a message!
       </h2>

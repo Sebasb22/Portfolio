@@ -80,13 +80,18 @@ const RotatingText = forwardRef<RotatingTextRef, RotatingTextProps>(
     const splitIntoCharacters = (text: string): string[] => {
       if (typeof Intl !== "undefined" && (Intl as any).Segmenter) {
         try {
-          const segmenter = new (Intl as any).Segmenter("en", { granularity: "grapheme" });
+          const segmenter = new (Intl as any).Segmenter("en", {
+            granularity: "grapheme",
+          });
           return Array.from(
             segmenter.segment(text),
             (segment: { segment: string }) => segment.segment
           );
         } catch (error) {
-          console.warn("Intl.Segmenter failed, falling back to Array.from:", error);
+          console.warn(
+            "Intl.Segmenter failed, falling back to Array.from:",
+            error
+          );
         }
       }
       return Array.from(text); // Fallback
