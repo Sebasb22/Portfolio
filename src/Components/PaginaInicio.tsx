@@ -2,22 +2,22 @@ import Spline from "@splinetool/react-spline";
 import Sendmeamessage from "./Sendmeamessage";
 import ScrollReveal from "./ScrollReveal/ScrollReveal";
 import RotatingText from "./RotatingText";
-import Javascript from "../assets/logos/JavaScript.svg";
-import Reactimage from "../assets/logos/React.svg";
-import HTMLogo from "../assets/logos/HTML.svg";
-import CSS from "../assets/logos/CSS.svg";
-import TailwindCSS from "../assets/logos/Tailwind.svg";
+import LogoJavascript from "../assets/logos/JavaScript.svg";
+import LogoReactimage from "../assets/logos/React.svg";
+import LogoHTMLogo from "../assets/logos/HTML.svg";
+import LogoCSS from "../assets/logos/CSS.svg";
+import LogoTailwindCSS from "../assets/logos/Tailwind.svg";
 import LogoNodeJS from "../assets/logos/NodeJs.svg";
-import MongoDBImage from "../assets/logos/Mongo.svg";
-import Git from "../assets/logos/Git.svg";
-import Figma from "../assets/logos/Figma.svg";
-import Jira from "../assets/logos/Jira.svg";
-import MySQL from "../assets/logos/MySQL.svg";
-import Postman from "../assets/logos/Postman.svg";
-import Bash from "../assets/logos/Bash.svg";
-import Python from "../assets/logos/Python.svg";
-import Selenium from "../assets/logos/Selenium.svg";
-import Dockerimage from "../assets/logos/Docker.svg";
+import LogoMongoDBImage from "../assets/logos/Mongo.svg";
+import LogoGit from "../assets/logos/Git.svg";
+import LogoFigma from "../assets/logos/Figma.svg";
+import LogoJira from "../assets/logos/Jira.svg";
+import LogoMySQL from "../assets/logos/MySQL.svg";
+import LogoPostman from "../assets/logos/Postman.svg";
+import LogoBash from "../assets/logos/Bash.svg";
+import LogoPython from "../assets/logos/Python.svg";
+import LogoSelenium from "../assets/logos/Selenium.svg";
+import LogoDockerimage from "../assets/logos/Docker.svg";
 import yo from "../assets/Images/yo.png";
 
 const BodyInicio = () => {
@@ -156,22 +156,30 @@ const BodyInicio = () => {
               Technologies
             </h3>
             <div className="mt-6 mb-50 flex flex-wrap justify-center gap-6">
-              <img src={Javascript} alt="JavaScript" className="h-12 w-12" />
-              <img src={Reactimage} alt="React" className="h-12 w-12" />
-              <img src={HTMLogo} alt="HTML" className="h-12 w-12" />
-              <img src={CSS} alt="CSS" className="h-12 w-12" />
-              <img src={TailwindCSS} alt="Tailwind CSS" className="h-12 w-12" />
+              <img
+                src={LogoJavascript}
+                alt="JavaScript"
+                className="h-12 w-12"
+              />
+              <img src={LogoReactimage} alt="React" className="h-12 w-12" />
+              <img src={LogoHTMLogo} alt="HTML" className="h-12 w-12" />
+              <img src={LogoCSS} alt="CSS" className="h-12 w-12" />
+              <img
+                src={LogoTailwindCSS}
+                alt="Tailwind CSS"
+                className="h-12 w-12"
+              />
               <img src={LogoNodeJS} alt="Node.js" className="h-12 w-12" />
-              <img src={MongoDBImage} alt="MongoDB" className="h-12 w-12" />
-              <img src={Git} alt="Git" className="h-12 w-12" />
-              <img src={Figma} alt="Figma" className="h-12 w-12" />
-              <img src={Jira} alt="Jira" className="h-12 w-12" />
-              <img src={MySQL} alt="MySQL" className="h-12 w-12" />
-              <img src={Postman} alt="Postman" className="h-12 w-12" />
-              <img src={Bash} alt="Bash Shell" className="h-12 w-12" />
-              <img src={Python} alt="Python" className="h-12 w-12" />
-              <img src={Selenium} alt="Selenium" className="h-12 w-12" />
-              <img src={Dockerimage} alt="Docker" className="h-12 w-12" />
+              <img src={LogoMongoDBImage} alt="MongoDB" className="h-12 w-12" />
+              <img src={LogoGit} alt="Git" className="h-12 w-12" />
+              <img src={LogoFigma} alt="Figma" className="h-12 w-12" />
+              <img src={LogoJira} alt="Jira" className="h-12 w-12" />
+              <img src={LogoMySQL} alt="MySQL" className="h-12 w-12" />
+              <img src={LogoPostman} alt="Postman" className="h-12 w-12" />
+              <img src={LogoBash} alt="Bash Shell" className="h-12 w-12" />
+              <img src={LogoPython} alt="Python" className="h-12 w-12" />
+              <img src={LogoSelenium} alt="Selenium" className="h-12 w-12" />
+              <img src={LogoDockerimage} alt="Docker" className="h-12 w-12" />
             </div>
           </div>
         </div>

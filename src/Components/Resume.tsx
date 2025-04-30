@@ -1,19 +1,19 @@
-import Javascript from "../assets/logos/JavaScript.svg";
-import Reactimage from "../assets/logos/React.svg";
-import HTMLogo from "../assets/logos/HTML.svg";
-import CSS from "../assets/logos/CSS.svg";
-import TailwindCSS from "../assets/logos/Tailwind.svg";
+import LogoJavascript from "../assets/logos/JavaScript.svg";
+import LogoReactimage from "../assets/logos/React.svg";
+import LogoHTMLogo from "../assets/logos/HTML.svg";
+import LogoCSS from "../assets/logos/CSS.svg";
+import LogoTailwindCSS from "../assets/logos/Tailwind.svg";
 import LogoNodeJS from "../assets/logos/NodeJs.svg";
-import MongoDBImage from "../assets/logos/Mongo.svg";
-import Git from "../assets/logos/Git.svg";
-import Figma from "../assets/logos/Figma.svg";
-import Jira from "../assets/logos/Jira.svg";
-import MySQL from "../assets/logos/MySQL.svg";
-import Postman from "../assets/logos/Postman.svg";
-import dockerimage from "../assets/logos/Docker.svg";
-import Bash from "../assets/logos/Bash.svg";
-import Python from "../assets/logos/Python.svg";
-import Selenium from "../assets/logos/Selenium.svg";
+import LogoMongoDBImage from "../assets/logos/Mongo.svg";
+import LogoGit from "../assets/logos/Git.svg";
+import LogoFigma from "../assets/logos/Figma.svg";
+import LogoJira from "../assets/logos/Jira.svg";
+import LogoMySQL from "../assets/logos/MySQL.svg";
+import LogoPostman from "../assets/logos/Postman.svg";
+import LogoDockerimage from "../assets/logos/Docker.svg";
+import LogoBash from "../assets/logos/Bash.svg";
+import LogoPython from "../assets/logos/Python.svg";
+import LogoSelenium from "../assets/logos/Selenium.svg";
 import DownloadResume from "./DownloadResume";
 
 const Resume = () => {
@@ -180,23 +180,23 @@ const Resume = () => {
         </h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-gray-700 font-thin">
           <div className="flex items-center space-x-2 select-none">
-            <img src={Javascript} alt="JavaScript" className="h-6 w-6" />
+            <img src={LogoJavascript} alt="JavaScript" className="h-6 w-6" />
             <span>JavaScript</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={Reactimage} alt="React" className="h-6 w-6" />
+            <img src={LogoReactimage} alt="React" className="h-6 w-6" />
             <span>React</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={HTMLogo} alt="HTML" className="h-6 w-6" />
+            <img src={LogoHTMLogo} alt="HTML" className="h-6 w-6" />
             <span>HTML</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={CSS} alt="CSS" className="h-6 w-6" />
+            <img src={LogoCSS} alt="CSS" className="h-6 w-6" />
             <span>CSS</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={TailwindCSS} alt="Tailwind CSS" className="h-6 w-6" />
+            <img src={LogoTailwindCSS} alt="Tailwind CSS" className="h-6 w-6" />
             <span>Tailwind CSS</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
@@ -204,43 +204,43 @@ const Resume = () => {
             <span>Node.js</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={MongoDBImage} alt="MongoDB" className="h-6 w-6" />
+            <img src={LogoMongoDBImage} alt="MongoDB" className="h-6 w-6" />
             <span>MongoDB</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={Git} alt="Git" className="h-6 w-6" />
+            <img src={LogoGit} alt="Git" className="h-6 w-6" />
             <span>Git</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={Figma} alt="Figma" className="h-6 w-6" />
+            <img src={LogoFigma} alt="Figma" className="h-6 w-6" />
             <span>Figma</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={Jira} alt="Jira" className="h-6 w-6" />
+            <img src={LogoJira} alt="Jira" className="h-6 w-6" />
             <span>Jira</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={MySQL} alt="MySQL" className="h-6 w-6" />
+            <img src={LogoMySQL} alt="MySQL" className="h-6 w-6" />
             <span>MySQL</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={Postman} alt="Postman" className="h-6 w-6" />
+            <img src={LogoPostman} alt="Postman" className="h-6 w-6" />
             <span>Postman</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={Bash} alt="Bash Shell" className="h-6 w-6" />
+            <img src={LogoBash} alt="Bash Shell" className="h-6 w-6" />
             <span>Bash Shell</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={Python} alt="Python" className="h-6 w-6" />
+            <img src={LogoPython} alt="Python" className="h-6 w-6" />
             <span>Python</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={Selenium} alt="Selenium" className="h-6 w-6" />
+            <img src={LogoSelenium} alt="Selenium" className="h-6 w-6" />
             <span>Selenium</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={dockerimage} alt="Selenium" className="h-6 w-6" />
+            <img src={LogoDockerimage} alt="Docker" className="h-6 w-6" />
             <span>Docker</span>
           </div>
         </div>
