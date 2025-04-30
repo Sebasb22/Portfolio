@@ -7,7 +7,7 @@ import Reactimage from "../assets/logos/React.svg";
 import HTMLogo from "../assets/logos/HTML.svg";
 import CSS from "../assets/logos/CSS.svg";
 import TailwindCSS from "../assets/logos/Tailwind.svg";
-import NodeJS from "../assets/logos/NodeJS.svg";
+import LogoNodeJS from "../assets/logos/NodeJs.svg";
 import MongoDBImage from "../assets/logos/Mongo.svg";
 import Git from "../assets/logos/Git.svg";
 import Figma from "../assets/logos/Figma.svg";
@@ -161,7 +161,7 @@ const BodyInicio = () => {
               <img src={HTMLogo} alt="HTML" className="h-12 w-12" />
               <img src={CSS} alt="CSS" className="h-12 w-12" />
               <img src={TailwindCSS} alt="Tailwind CSS" className="h-12 w-12" />
-              <img src={NodeJS} alt="Node.js" className="h-12 w-12" />
+              <img src={LogoNodeJS} alt="Node.js" className="h-12 w-12" />
               <img src={MongoDBImage} alt="MongoDB" className="h-12 w-12" />
               <img src={Git} alt="Git" className="h-12 w-12" />
               <img src={Figma} alt="Figma" className="h-12 w-12" />
