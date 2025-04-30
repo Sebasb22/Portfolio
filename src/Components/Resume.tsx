@@ -8,13 +8,13 @@ import LogoMongoDBImage from "../assets/logos/Mongo.svg";
 import LogoGit from "../assets/logos/Git.svg";
 import LogoFigma from "../assets/logos/Figma.svg";
 import LogoJira from "../assets/logos/Jira.svg";
-import LogoMySQL from "../assets/logos/MySQL.svg";
-import LogoPostman from "../assets/logos/Postman.svg";
-import LogoDockerimage from "../assets/logos/Docker.svg";
+import LogoPostman from "../assets/logos/Postman.svg"; // Verifica que este archivo exista
 import LogoBash from "../assets/logos/Bash.svg";
 import LogoPython from "../assets/logos/Python.svg";
 import LogoSelenium from "../assets/logos/Selenium.svg";
+import LogoDockerimage from "../assets/logos/docker.svg";
 import DownloadResume from "./DownloadResume";
+import LogoMysql from "../assets/logos/Mysql.svg";
 
 const Resume = () => {
   return (
@@ -220,7 +220,7 @@ const Resume = () => {
             <span>Jira</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
-            <img src={LogoMySQL} alt="MySQL" className="h-6 w-6" />
+            <img src={LogoMysql} alt="MySQL" className="h-6 w-6" />
             <span>MySQL</span>
           </div>
           <div className="flex items-center space-x-2 select-none">
