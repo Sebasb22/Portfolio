@@ -31,7 +31,7 @@ const DownloadResume = () => {
           <Lottie options={{ ...defaultOptions, autoplay: isPlaying }} />
         </div>
         <span className="hidden sm:inline" onClick={handleClick}>
-          Descargar CV
+          Download Resume
         </span>
       </a>
     </div>
