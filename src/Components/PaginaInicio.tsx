@@ -18,6 +18,7 @@ import Bash from "../assets/logos/Bash.svg";
 import Python from "../assets/logos/Python.svg";
 import Selenium from "../assets/logos/Selenium.svg";
 import Dockerimage from "../assets/logos/Docker.svg";
+import yo from "../assets/Images/yo.png";
 
 const BodyInicio = () => {
   return (
@@ -72,7 +73,7 @@ const BodyInicio = () => {
           {/* Imagen */}
           <div className="w-full lg:w-1/3 mb-6 lg:mb-0">
             <img
-              src="/path/to/your-image.jpg"
+              src={yo}
               alt="Sebastian Bolanos"
               className="rounded-lg shadow-lg w-full object-cover"
             />

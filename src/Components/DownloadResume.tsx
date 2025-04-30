@@ -1,14 +1,38 @@
-import React from "react";
+import { useState } from "react";
+import Lottie from "react-lottie";
+import animationData from "../assets/logos/Download/download.json";
 
 const DownloadResume = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const defaultOptions = {
+    loop: false,
+    autoplay: false,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  const handleClick = () => {
+    setIsPlaying(true);
+    setTimeout(() => setIsPlaying(false), 2000); // Reinicia la animación después de 2 segundos
+  };
+
   return (
-    <div>
+    <div className="flex justify-end items-center">
       <a
-        href="/resume.pdf"
+        href="public/Resume SebastianB 2025.docx.pdf"
         download
-        className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
+        className="text-gray-500 hover:text-gray-700 text-sm flex items-center group"
+        onClick={handleClick}
       >
-        Descargar CV
+        <div className="w-8 h-8 mr-2" onClick={handleClick}>
+          <Lottie options={{ ...defaultOptions, autoplay: isPlaying }} />
+        </div>
+        <span className="hidden sm:inline" onClick={handleClick}>
+          Descargar CV
+        </span>
       </a>
     </div>
   );

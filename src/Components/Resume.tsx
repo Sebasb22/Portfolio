@@ -14,10 +14,13 @@ import dockerimage from "../assets/logos/Docker.svg";
 import Bash from "../assets/logos/Bash.svg";
 import Python from "../assets/logos/Python.svg";
 import Selenium from "../assets/logos/Selenium.svg";
+import DownloadResume from "./DownloadResume";
 
 const Resume = () => {
   return (
     <div className="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-lg">
+      <DownloadResume />
+
       <div className="mb-8">
         <h1 className="text-3xl font-normal text-gray-800 mb-2">
           Sebastian Bolaños Cordoba
