@@ -12,8 +12,7 @@ import LogoMongoDBImage from "../assets/logos/Mongo.svg";
 import LogoGit from "../assets/logos/Git.svg";
 import LogoFigma from "../assets/logos/Figma.svg";
 import LogoJira from "../assets/logos/Jira.svg";
-import LogoMySQL from "../assets/logos/MySQL.svg";
-import LogoPostman from "../assets/logos/Postman.svg";
+import LogoPostman from "../assets/logos/Postman.svg"; // Verifica que este archivo exista
 import LogoBash from "../assets/logos/Bash.svg";
 import LogoPython from "../assets/logos/Python.svg";
 import LogoSelenium from "../assets/logos/Selenium.svg";
@@ -174,9 +173,9 @@ const BodyInicio = () => {
               <img src={LogoGit} alt="Git" className="h-12 w-12" />
               <img src={LogoFigma} alt="Figma" className="h-12 w-12" />
               <img src={LogoJira} alt="Jira" className="h-12 w-12" />
-              <img src={LogoMySQL} alt="MySQL" className="h-12 w-12" />
               <img src={LogoPostman} alt="Postman" className="h-12 w-12" />
-              <img src={LogoBash} alt="Bash Shell" className="h-12 w-12" />
+              <img src={LogoBash} alt="Bash Shell" className="h-12 w-12" /> //
+              Verifica que esta línea sea válida
               <img src={LogoPython} alt="Python" className="h-12 w-12" />
               <img src={LogoSelenium} alt="Selenium" className="h-12 w-12" />
               <img src={LogoDockerimage} alt="Docker" className="h-12 w-12" />
