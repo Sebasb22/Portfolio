@@ -8,7 +8,7 @@ import Particles from "./Components/Particles";
 
 function App() {
   return (
-    <div className="relative">
+    <div className="relative min-h-screen flex flex-col">
       {/* Particles como fondo */}
       <div className="absolute inset-0 -z-10">
         <Particles
@@ -25,13 +25,15 @@ function App() {
 
       {/* Contenido principal */}
       <Navbar />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<PaginaInicio />} />
-          <Route path="/Resume" element={<Resume />} />
-          <Route path="/Projects" element={<Projects />} />
-        </Routes>
-      </BrowserRouter>
+      <div className="flex-grow pt-16">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<PaginaInicio />} />
+            <Route path="/Resume" element={<Resume />} />
+            <Route path="/Projects" element={<Projects />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
       <Footer />
     </div>
   );

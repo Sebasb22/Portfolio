@@ -24,9 +24,6 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Espaciador para evitar que el Navbar tape el contenido */}
-      <div className="h-16"></div>
-
       <div className="flex justify-between items-center px-5 md:px-10 py-4 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white fixed top-0 left-0 w-full z-50 shadow-lg">
         {/* Logo */}
         <div className="flex items-center space-x-2">
@@ -53,7 +50,7 @@ const Navbar = () => {
             className="cursor-pointer hover:text-gray-200 transition-colors"
             onClick={() => handleScroll("projects-section")}
           >
-            Projects
+            <a href="/Projects">Projects</a>
           </motion.li>
           <motion.li
             whileHover={{ scale: 1.1 }}
