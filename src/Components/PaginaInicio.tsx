@@ -97,7 +97,7 @@ const BodyInicio = () => {
                 </h3>
                 <p className="text-sm text-gray-600">
                   Proficient in JavaScript, HTML, CSS, and modern frameworks
-                  like React.
+                  like React, Angular and Vue.
                 </p>
               </div>
               <div className="bg-white shadow-md rounded-lg p-6 text-center">
